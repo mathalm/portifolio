@@ -15,8 +15,6 @@ function BotaoWhatsapp({nomeVisitanteMudou}) {
   const [mostrarParagrafo2, setMostrarParagrafo2] = useState(false);//mudar aqui para esconder
   const [hora, setHora] = useState();
   const [minuto, setMinuto] = useState();
-  const mensagemvisitante = useRef();
-
   const [mensagens, setMensagens] = useState([]);
 
 
