@@ -12,6 +12,7 @@ function ParticleJs() {
   };
   return ( 
     <Particles
+        z-index='0'
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}

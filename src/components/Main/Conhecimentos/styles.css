@@ -1,0 +1,35 @@
+.conhecimentos{
+  height: 180px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 70px;
+}
+.div-conhecimentos{
+  width: 20vw;
+  border: solid 2px rgba(0, 0, 0, 0.685);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logoC{ 
+  position: relative;
+  animation: float 2s infinite ease-out;
+}
+.logoC img{
+  width: 70px;
+  height: 70px;
+}
+@keyframes float {
+  0%{ bottom: 18px;}
+  50%{ bottom: 25px;}
+  100%{ bottom: 18px;}
+}
+.conteudo{
+  height: 90px;
+  width: 100%;
+  padding: 0px 8px 8px 25px;
+}
+.conteudo ul li{
+  list-style: circle;
+}

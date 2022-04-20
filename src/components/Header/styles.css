@@ -4,21 +4,19 @@
   position: relative;
   top: 0;
 }
-
 /* ------------------HEADER--------------------- */
-
 .header-perfil-home{
-  height: 500px;
+  height: 380px;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 110px;
   position: relative;
   top: 0;
   display:flex ;
   align-items: center;
-  padding-left: 200px;
+  justify-content: flex-start;
+  padding-left: 150px;
 }
 .div-img{
-  /* background-color: aliceblue; */
   display: flex;
   flex-direction: column;
   position: relative;

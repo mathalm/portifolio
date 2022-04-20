@@ -5,6 +5,12 @@
 }
 .div-apresentacao h1{
   font-size: 40px;
+  line-height: 35px;
+}
+.div-apresentacao h2{
+  font-weight: 400;
+  line-height: 25px;
+  
 }
 .ul-redes-sociais{
   width: 180px;
@@ -15,7 +21,6 @@
 }
 .ul-redes-sociais li{
   width: 35px;
-  /* background-color: cyan; */
   display: flex;
   flex-direction: column;
   cursor: pointer;
@@ -37,9 +42,9 @@
   padding: 10px;
   font-size: 14px;
   text-align: center;
-  color: rgb(113, 157, 171);
-  background: rgb(255, 255, 255);
-  border: 4px solid rgb(255, 255, 255);
+  color: rgb(21, 28, 31);
+  background: rgb(179, 179, 179);
+  border: 4px solid rgb(179, 179, 179);
   border-radius: 5px;
   text-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
@@ -55,7 +60,7 @@ span:after {
   height: 0;
   border-width: 10px;
   border-style: solid;
-  border-color: transparent transparent #FFFFFF transparent;
+  border-color: transparent transparent rgb(179, 179, 179) transparent;
   top: -23px;
   left: 5px;
 }

@@ -1,17 +1,17 @@
 import React, { useState, useMemo, useRef } from 'react';
 import './styles.css';
-import fotoBot from '../../images/foto-bot.jpg'
+import perfil from '../../images/perfil.jpg'
 import BotaoWhatsapp from '../BotaoWhatsapp';
 import ParticleJs from './ParticleJs';
 import Nav from './Nav';
 import DivApresentacao from './DivApresentacao';
 
-function HeaderHome() {
+function Header() {
   const [image, setImage] = useState();
   const [definirSrcImage, setDefinirSrcImage] = useState(true);
   const nomeVisitante = useRef();
   const [nomeVisitanteMudou, setNomeVisitanteMudou] = useState();
-  const [mudarClasseModal, setMudarClasseModal] = useState(true); /*mudar aqui para aparecer o modal*/ 
+  const [mudarClasseModal, setMudarClasseModal] = useState(false); /*mudar aqui para aparecer o modal*/ 
 
 
   const handleInputImg = (event) => {
@@ -49,7 +49,7 @@ function HeaderHome() {
       <Nav />
       <header className='header-perfil-home'>
         <div className="div-img">
-          <img src={!!definirSrcImage ? fotoBot : image} alt="foto Inicial" className='img-perfil' />
+          <img src={!!definirSrcImage ? perfil : image} alt="foto Inicial" className='img-perfil' />
           <input type="file" className='file' onChange={handleInputImg} accept='image/*' />
         </div>
        <DivApresentacao nomeVisitanteMudou={nomeVisitanteMudou} />
@@ -64,4 +64,4 @@ function HeaderHome() {
   );
 }
 
-export default HeaderHome;
+export default Header;

@@ -1,23 +1,25 @@
 .nav-area-total{
-  background-color: #062555;
-  height: 80px;
+  background-color: #14233a;
+  height: 60px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   position: fixed;
   top: 0;
-  z-index: 10000;
-  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.479);
+  z-index: 10000000;
+  box-shadow: 1px 1px 3px  #3b4557;
 }
 .div-menu ul{
   display: flex;
   height: 80px;
   align-items: center;
+  margin-left: 30px;
 }
 
 .BsCodeSlash{
   margin: 0 5px;
+  color: rgb(56, 170, 81) ;
 }
 
 .div-sobre-li{

@@ -12,7 +12,7 @@ function Nav() {
             <div className="div-sobre-li">
               <li>Projetos</li>
             </div>
-            <div><BsCodeSlash size={40} color='white' className='BsCodeSlash'/></div>
+            <div className='BsCodeSlash'><BsCodeSlash size={40}  /></div>
             <div className="div-sobre-li">
               <li>Certificados</li>
             </div>

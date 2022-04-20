@@ -1,0 +1,17 @@
+.main{
+  background-color: #14233a;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  z-index: 10000;
+  padding-top: 20px ;
+  color: #f0f0f0;
+  box-shadow: 1px 1px 3px  #3b4557;
+}
+.main h2{
+  margin: auto;
+  color: #f0f0f0;
+  margin-bottom: 70px;
+  border-bottom: solid 2px rgb(56, 170, 81);
+  width: max-content;
+}

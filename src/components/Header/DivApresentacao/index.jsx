@@ -18,7 +18,6 @@ function DivApresentacao({nomeVisitanteMudou}) {
             </li>
             <li><SiLinkedin size={23}/> <span>https://www.linkedin.com/in/matheus-almeida-0929b01b7/</span></li>
             <li><SiGithub size={23}/> <span>https://github.com/mathalm</span></li>
-            <li><SiTwitter size={23}/> <span>Não tenho 😅</span></li>
             <li><MdEmail size={23}/> <span>matheuscsalmeida@gmail.com</span></li>
           </ul>
         </div>
