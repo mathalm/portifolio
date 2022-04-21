@@ -4,8 +4,9 @@ import Conhecimentos from './Conhecimentos';
 
 import './styles.css';
 function Main() {
+
   return (
-    <main className='main'>
+    <main className="main">
       <div>
         <h2>Conhecimentos</h2>
         <Conhecimentos />

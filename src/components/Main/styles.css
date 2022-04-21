@@ -1,6 +1,6 @@
 .main{
   background-color: #14233a;
-  height: 800px;
+  height: 1200px;
   width: 100%;
   position: relative;
   z-index: 10000;
@@ -14,4 +14,7 @@
   margin-bottom: 70px;
   border-bottom: solid 2px rgb(56, 170, 81);
   width: max-content;
+}
+.esconder{
+  display: hidden;
 }
