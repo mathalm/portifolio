@@ -1,12 +1,13 @@
 .conhecimentos{
-  height: 180px;
+  max-height: max-content;
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .conhecimento-div{
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .div-conhecimentos{
@@ -16,6 +17,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 30px;
 }
 .logoC{ 
   position: relative;

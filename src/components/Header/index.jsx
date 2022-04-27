@@ -11,7 +11,7 @@ function Header() {
   const [definirSrcImage, setDefinirSrcImage] = useState(true);
   const nomeVisitante = useRef();
   const [nomeVisitanteMudou, setNomeVisitanteMudou] = useState();
-  const [mudarClasseModal, setMudarClasseModal] = useState(false); /*mudar aqui para aparecer o modal*/ 
+  const [mudarClasseModal, setMudarClasseModal] = useState(true); /*mudar aqui para aparecer o modal*/ 
 
 
   const handleInputImg = (event) => {
@@ -52,7 +52,8 @@ function Header() {
           <img src={!!definirSrcImage ? perfil : image} alt="foto Inicial" className='img-perfil' />
           <input type="file" className='file' onChange={handleInputImg} accept='image/*' />
         </div>
-       <DivApresentacao nomeVisitanteMudou={nomeVisitanteMudou} />
+       <DivApresentacao nomeVisitanteMudou={nomeVisitanteMudou} /> 
+       {/* {quebra o responsivo} */}
       </header>
       <div className={!!mudarClasseModal ? "divModal" : "divModalEnviou"}>
         <h3>Olá! Tudo bem?? <br /> Primeiramente, gostaria de saber qual seu nome?</h3>

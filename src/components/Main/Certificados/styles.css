@@ -1,10 +1,10 @@
 .secao-certificados{
   /* background-color: rgb(68, 68, 155); */
-  height: 400px;
+  height: max-content;
   width: 100%;
 }
 .carousel-slider{
-  left: 25%;
+  left: 27.5%;
 }
 .carousel .thumbs {
   display: flex;
@@ -28,3 +28,14 @@
   text-align: center;
   width: 430px;
 }
+.div-background-image{
+  position: absolute;
+  left: 0;
+  bottom: 300px;
+  /* background-color: rgba(57, 146, 146, 0.212); */
+}
+.image-background{
+  height: 300px;
+}
+
+

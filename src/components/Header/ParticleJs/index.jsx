@@ -46,18 +46,18 @@ function ParticleJs() {
                 quantity: 4,
               },
               repulse: {
-                distance: 120,
+                distance: 70,
                 duration: 0,
               },
             },
           },
           particles: {
             color: {
-              value: "#c4c4c4",
+              value: "#3cbe5c",
             },
             links: {
-              color: "#c4c4c4",
-              distance: 150,
+              color: "#5d8d51",
+              distance: 140,
               enable: true,
               opacity: 0.5,
               width: 1,
@@ -76,7 +76,7 @@ function ParticleJs() {
             number: {
               density: {
                 enable: true,
-                area: 800,
+                area: 500,
               },
               value: 80,
             },

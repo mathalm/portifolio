@@ -10,3 +10,9 @@
 .App{
   height: 2000px;
 }
+::-webkit-scrollbar{
+  width: 1px;
+}
+
+
+

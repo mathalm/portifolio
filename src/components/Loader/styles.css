@@ -1,0 +1,57 @@
+.div-loader-shadow {
+  background-color: #14233a7a;
+  height: 150vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 100000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50vh;
+  color: #f0f0f0;
+}
+.div-loader {
+  background-color: rgba(0, 255, 255, 0.233);
+  height: 60px;
+  width: 60px;
+  border: solid 5px #14233a;
+  border-top: solid 5px rgb(56, 170, 81);
+  border-radius: 50%;
+  animation: Rotate 2s infinite;
+}
+.loader {
+  background-image: linear-gradient(rgb(56, 170, 81), #14233a);
+  width: 50px;
+  height: 50px;
+  border: solid 5px rgb(56, 170, 81);
+  border-top: solid 5px #14233a;
+  border-radius: 50%;
+  animation: Rotate 2s ease infinite;
+}
+.nao-carregando {
+  height: 150vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 100000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50vh;
+  color: #f0f0f0;
+  background-color: rgba(80, 80, 136, 0.308);
+  animation: Esconder 1s ease 1;
+  transition-delay: 1s;
+  visibility: hidden;
+}
+
+@keyframes Rotate {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+@keyframes Esconder {
+  0% {opacity: 100%;}
+  100% {opacity: 0%;}
+}

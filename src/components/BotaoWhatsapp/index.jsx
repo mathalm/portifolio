@@ -23,7 +23,6 @@ function BotaoWhatsapp({ nomeVisitanteMudou }) {
 
   const handleApareceWhats = () => {
     setMostrarModalWhats(!mostrarModalWhats)
-    console.log(mostrarModalWhats);
     var data = new Date();
     setTimeout(() => {
       setMostrarParagrafo(true)
@@ -36,8 +35,6 @@ function BotaoWhatsapp({ nomeVisitanteMudou }) {
     setTimeout(() => {
       setMostrarParagrafo3(true);
     }, 7000)
-
-
   }
 
   const handleMensagemVisitante = (e) => {
@@ -64,9 +61,6 @@ function BotaoWhatsapp({ nomeVisitanteMudou }) {
 
     }
   }
-
-
-
   return (
     <div className='div-botao-whats'>
       <div className={!!mostrarModalWhats ? 'aparecer-modal-whats' : 'modal-esconder-whats'}>
